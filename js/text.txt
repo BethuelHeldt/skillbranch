@@ -1,0 +1,20 @@
+
+//  BRANCH
+// kijk of er branches zijn l = kleine L en geen | of 1
+git branch --l 
+
+//  Maak branch die release1 heet (spatei mag niet)
+git branch "release1" 
+
+//  Naar Branche gaan
+git checkout release1 //nu zit je in branch release1
+
+//  Branches mergen, eerst naar de juiste branch, en dan:
+git merge release1
+
+//  Branch renamen doe je zoe:
+git branch -m oudenaam nieuwenaam
+
+//  Branch delete
+git branch -d branchnaam
+git branch -delete branchnaam
